@@ -1,0 +1,88 @@
+body, div, h1, form, fieldset, input, textarea {
+	margin: 0; padding: 0; border: 0; outline: none;
+}
+
+body {
+	background: #abb5cb url(../images/blue-bg.png);
+	font-family: Helvetica, Sans-Serif; color: #525c73;
+	line-height: 40px;
+}
+
+
+#container {
+	width: 560px; margin: 40px auto; padding: 51px 0 0 0;
+	background: url(../images/lines.png); position: relative;
+}
+	#container:before {
+		content: ""; width: 19px; height: 365px; position: absolute; left: -19px; top: 0;
+		background: url(../images/shadow.png); 
+	}
+
+h1 {
+	font-size: 30px;
+	text-align: center; letter-spacing: 5px;
+	margin: 0 0 44px 0;
+}
+
+#message {
+	width: 520px;height:550px;
+	margin: -4px 20px 40px 20px;
+	font-family: 'Shadows Into Light', cursive;
+	font-size: 24px; color: #18326d; letter-spacing: 3px;
+}
+
+#message img {
+	display: block;
+	padding: 10px;
+	-moz-box-shadow: 0 1px 5px #666; 
+	-webkit-box-shadow: 0 1px 5px #666; 
+	box-shadow: 0 1px 5px #666;
+	-moz-transition: background 0.2s ease-in; 
+	-webkit-transition: background 0.2s ease-in; 
+	transition: background 0.2s ease-in; 
+}
+
+#message img:hover{
+	-moz-box-shadow: 0 1px 7px #333; 
+	-webkit-box-shadow: 0 1px 7px #333; 
+	box-shadow: 0 1px 7px #333; 
+}
+
+#message a{
+	display:block;
+	float:right;
+	margin: 0px 30px 0 0;
+}
+#message a:link,
+#message a:visited,
+#message a:active {
+	color: #5cbf94;
+	text-decoration: none;
+	-moz-transition: color 0.2s ease-in; 
+	-webkit-transition: color 0.2s ease-in; 
+	transition: color 0.2s ease-in; 
+}
+
+#message a:hover,
+#message a:focus {
+	color: #000;
+	text-decoration: underline;
+}
+
+#love_image1 {
+	width: 300px; height: 227px;float:left;
+}
+
+#love_image2 {
+	width: 320px; height: 227px;float:left;
+}
+
+#love_image3 {
+	width: 300px; height: 110px;float:left;
+}
+
+#c{
+	position: relative;
+	margin:20px auto;
+	display:block;
+}
